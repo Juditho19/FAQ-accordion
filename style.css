@@ -52,12 +52,13 @@ h1 {
     flex-direction: row;
     gap: 10px;
     align-items: center;
-    /* need to remove line at bottom */
     padding-bottom: 1rem;
     margin-bottom: 1rem;
     
-    /* justify-content: space-between; */
     
+}
+summary:hover{
+    color: #ad28eb;
 }
 
 .faq-item:not(:last-child){
@@ -74,5 +75,7 @@ h2 a:hover{
 }
 
 
+details summary {
+    list-style: none;
 
-
+}
